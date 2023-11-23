@@ -1,0 +1,70 @@
+body{
+	font-family: Roboto,condensed;
+}
+
+.navbar{
+	background-image: linear-gradient(to right ,#20EF54,#17C232,#116E0F, #1E5E0C,#134013) ;
+}
+
+#cabecalho .nav .nav-link.active{
+	color: #fff;
+	background-color:#294129 ;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+	color: #fff;
+}
+
+.navbar-toggler{
+	background-color:#294129;
+}
+
+
+#sobre-zoologico .carousel-inner img{
+	height: 1050px;
+}
+
+#sobre-zoologico,
+#animais{
+	background-color: #daebdd;
+}
+
+#museu img{ 
+	height: 312px;
+}
+
+.tab-pane img{
+	height: 250px;
+}
+
+.nav-animais .nav-link.active {
+	background-color:#294129;
+	color: #fff;
+}
+
+.nav-animais .nav-link{
+	color: black;
+}
+
+#fale-conosco .btn {
+	background-color:#294129;
+	color: #fff;
+}
+
+.social-links{
+	list-style: none;
+	display: inline;
+}
+
+.social-links i {
+	color: #294129;
+	font-size: 3em;
+}
+
+@media (max-width: 767px) {
+	#sobre-zoologico .carousel-inner img{
+		height: 280px;
+	}
+}

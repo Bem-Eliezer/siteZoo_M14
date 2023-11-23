@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZOOLOGICO</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header class="navbar navbar-expand-md sticky-top p-4 " id="cabecalho">
+		<div class="container">
+			<h1 class="navbar-brand m-0 fs-2 ">Zoologico Brasileiro</h1>
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+				<ul class="nav nav-pills d-block d-md-flex">
+					<li class="nav-item fw-bold">
+						<a href="#sobre-zoologico" class="nav-link active">
+							<i class="bi bi-building"></i>
+						Sobre o Zoologico
+					</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#eventos" class="nav-link">
+							<i class="bi bi-calendar-check me-1"></i>
+							Eventos
+						</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#animais" class="nav-link">
+							<i class="bi bi-card-text me-1"></i>
+							Nossos animais
+						</a>
+					</li>
+					<li class="nav-item fw-bold">
+						<a href="#fale-conosco" class="nav-link">
+							<i class="bi bi-chat-left-text me-1"></i>
+							Fale conosco
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+		<section id="sobre-zoologico">
+			<div class="carousel slide" data-bs-ride="carousel" id="carousel" >
+				<div class="carousel-inner">
+					<div class="carousel-item active"  data-bs-interval="3000" >
+						<img class="w-100" src="imagens/sobreLoja/lion-951778.jpg " alt="Leão">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000" >
+						<img class="w-100 " src="imagens/sobreLoja/tiger-4114501.jpg" alt="tigre">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000" >
+						<img class="w-100" src="imagens/sobreLoja/wolf-3151876.jpg" alt="lobo">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000" >
+						<img class="w-100" src="imagens/sobreLoja/monkey-2195107.jpg" alt="">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carousel" class="active"	data-bs-slide-to="0"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+				</div>
+			</div>
+			<div class="pt-5 pb-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<img src="imagens/sobreLoja/zoo-3532181_1280.jpg" alt="crianças e adultos vendo uma girafa" class="d-block w-100 rounded">
+						</div>
+						<div class="col-md-7 mt-3 mt-md-0">
+							<h2> Sobre o Zoologico</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea atque nesciunt at temporibus, omnis cumque modi aut dolore maiores suscipit fugit ducimus expedita, a inventore nulla similique natus. Voluptatum?
+							</p>
+							<h3> Sobre o espaço</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor ratione autem laborum repellat quia at alias fuga cupiditate dicta? Minima nesciunt sapiente debitis quod ad molestiae laborum amet repellendus.
+							</p>
+							<ul>
+								<li>passeios escolares</li>
+								<li>visitas em familia</li>
+								<li>visitas individuais</li>
+								<li>restaurante</li>
+								<li>Parques de diversão</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="eventos" class="pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">Agendamentos do mês</h2>
+				</div>
+				<div class="row mt-4">
+					<div class="col-md-4" id="museu">
+						<img src="imagens/eventos/lesson-1014915_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+						<h3 class="fs-3">
+							<i class="bi bi-bus-front"></i>
+							Excursões
+						</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe illo accusantium repudiandae nulla voluptatum eveniet praesentium quia non ut debitis ratione quae, perferendis vero placeat sapiente excepturi expedita omnis.
+						</p>
+					</div>
+					<div class="col-md-4" id="museu">
+						<img src="imagens/eventos/family-outing-421653_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+						<h3 class="fs-3">
+							<i class="bi bi-suitcase-lg"></i>
+							Lazer
+						</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe illo accusantium repudiandae nulla voluptatum eveniet praesentium quia non ut debitis ratione quae, perferendis vero placeat sapiente excepturi expedita omnis.
+						</p>
+					</div>
+					<div class="col-md-4" id="museu">
+						<img src="imagens/eventos/skeleton-388555_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+						<h3 class="fs-3">
+							<i class="bi bi-book"></i>
+							Pesquisas
+						</h3>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe illo accusantium repudiandae nulla voluptatum eveniet praesentium quia non ut debitis ratione quae, perferendis vero placeat sapiente excepturi expedita omnis.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="animais" class="pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center mb-5">
+						Nossos animais
+					</h2>
+				</div>
+				<div class="row">
+					<aside class="col-md-2">
+						<nav class="nav nav-pills flex-column nav-animais">
+							<button type="button" data-bs-toggle="tab" data-bs-target="#mamiferos" class="fw-bold text-start nav-link active">Mamiferos</button>
+							<button type="button" data-bs-toggle="tab" data-bs-target="#repteis" class="fw-bold text-start nav-link">Repteis</button>
+							<button type="button" data-bs-toggle="tab" data-bs-target="#marinhos" class="fw-bold text-start nav-link">Marinhos</button>
+						</nav>
+					</aside>
+					<div class="col-md-10">
+						<div class="tab-content">
+							<div class="tab-pane active" id="mamiferos">
+								<div class="row">
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/ape-17474_1280.jpg" alt="">
+										<h5>Macaco</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/bear-422682_1280.jpg" alt="">
+										<h5> Urso</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/koala-9960_1280.jpg" alt="">
+										<h5>Koala</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/lemurs-1010643_1280.jpg" alt="">
+										<h5>Lêmure</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/lions-21787_1280.jpg" alt="">
+										<h5>Leões</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/mamiferos/mammals-3218028_1280.jpg" alt="">
+										<h5>Rapousa</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="repteis">
+								<div class="row">
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/tree-frog-8000809_1280.jpg" alt="">
+										<h5>Sapo</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/crocodile-1851313_1280.jpg" alt="">
+										<h5>Crocodilo</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/line-2945292_1280.jpg" alt="">
+										<h5>Cobra</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/lizard-4763351_1280.jpg" alt="">
+										<h5>Camaleão</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/panther-chameleon-3377556_1280.jpg" alt="">
+										<h5>Lagarto</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/repteis/red-bellied-black-snake-6749361_1280.jpg" alt="">
+										<h5>Cobra</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="marinhos">
+								<div class="row">
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/animals-1846546_1280.jpg" alt="">
+										<h5>Agua-Viva</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/turtle-1593875_1280.jpg" alt="">
+										<h5>Tartaruga</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/dolphins-1869337_1280.jpg " alt="">
+										<h5>Golfinhos</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/fish-1839706_1280.jpg">
+										<h5>Peixes</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/sea-lion-4481175_1280.jpg" alt="">
+										<h5>Foca</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+									<div class="col-md-4">
+										<img class="d-block w-100 rounded" src="imagens/marinhos/shark-8182315_1280.jpg" alt="">
+										<h5>Tunarão</h5>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos error nostrum magnam incidunt.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="fale-conosco" class="pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">Fale conosco</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-7 mb-5">
+						<form>
+							<div class="mb-3">
+								<label for="nome" class="form-label fw-bold">Seu nome</label>
+								<input type="text" id="nome" class="form-control" required>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label fw-bold">Seu E-mail</label>
+								<input type="email" id="email" class="form-control" required>
+							</div>
+							<div class="mb-3">
+								<label for="telefone" class="form-label fw-bold">Seu telefone</label>
+								<input type="tel" id="telefone" id="celular" class="form-control" required>
+							</div>
+							<div class="mb-3">
+								<label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+								<textarea id="mensagem" class="form-control" required></textarea>	
+							</div>
+							<button type="submit" class="btn fw-bold">Enviar</button>
+						</form>
+					</div>
+					<div class="col-md-5">
+						<div class="row">
+							<h3 class="fs-4">
+								<i class="bi bi-hand-thumbs-up-fill"></i>
+								Redes sociais
+							</h3>
+							<ul class="social-links">
+								<li>
+									<a href="#">
+										<i class="bi bi-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="bi bi-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="bi bi-whatsapp"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="row mt-2">
+							<h3 class="fs-3">
+								<i class="bi bi-cursor-fill"></i>
+								Endereço
+							</h3>
+							<p class="fs-4">
+								Rua: Animais silvestres n°321, Jd Zoologico - São Paulo - SP
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+	
+		<script type="text/javascript"> 
+		$("#telefone").mask("(00) 00000-0000")
+		$("#celular").mask("(00)0000-0000")
+		</script>
+</body>
+</html>
